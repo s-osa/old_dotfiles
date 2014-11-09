@@ -1,0 +1,13 @@
+[color]
+	ui = auto
+[user]
+	name = OSA Shunsuke
+	email = hhelibebcnofnenamg@gmail.com
+[push]
+	default = simple
+[core]
+	excludesfile = ~/.gitignore_global
+	autocrlf = input
+[alias]
+	s = status
+  a = add .
