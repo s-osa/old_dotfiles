@@ -35,12 +35,5 @@ endfunction
 autocmd BufWritePre * call <SID>remove_trailing_spaces()
 
 " Plugins
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'tpope/vim-rails'
-
-call vundle#end()
-filetype plugin indent on
 
 autocmd BufNewFile,BufRead Gemfile set filetype=ruby
